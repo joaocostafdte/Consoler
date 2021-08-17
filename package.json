@@ -1,6 +1,6 @@
 {
   "name": "consoler-demo-joao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/joaocostafdte/Consoler/issues"
   },
-  "homepage": "https://github.com/joaocostafdte/Consoler#readme"
+  "homepage": "https://github.com/joaocostafdte/Consoler#readme",
+  "bin": {
+    "console-cow": "./index.js"
+  }
 }
